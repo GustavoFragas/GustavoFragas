@@ -2,6 +2,7 @@
 
 # Prazer, me chamo Gustavo!
 **`Técnico em Desenvolvimento de Sistemas`**
+**`POR/SPA/ENG`**
 <p align="center"> <strong>Oi, como vocês estão?</strong><p>
 
 - Me chamo Gustavo Fragas Cunha, sou de 2004 e vivo atualmente em São Paulo capital! 
