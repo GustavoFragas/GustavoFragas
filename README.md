@@ -133,7 +133,8 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=GustavoFragas&repo=dio-lab-open-source&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF" />
       </a>
     </td>
-   <br>
+   </tr>
+ <tr>
     <td>
       <a href="https://github.com/GustavoFragas/basicoDoCsharp">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=GustavoFragas&repo=basicoDoCsharp&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF" />
@@ -141,7 +142,7 @@ src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.
     </td>
 
 <td>
-      <a href="https://github.com/GustavoFragas/basicoDoCsharp">
+      <a href="https://github.com/GustavoFragas/Sistema-para-Estacionamento">
         <img src="https://github-readme-stats.vercel.app/api/pin/?username=GustavoFragas&repo=Sistema-para-Estacionamento&bg_color=000&border_color=30A3DC&show_icons=true&icon_color=30A3DC&title_color=E94D5F&text_color=FFF" />
       </a>
     </td>
