@@ -1,92 +1,60 @@
-<h1 align="left">Oi, eu sou o Gustavo Fragas 👋</h1>
+# Oi, eu sou o Gustavo Fragas 👋
 
-### Software Engineer C#/.NET · Backend · APIs · Integrações · Observabilidade · AI Automation
+### Backend, APIs e integrações · C#/.NET · TypeScript/Node.js · AWS
 
-Sou de São Paulo e gosto de construir sistemas que tiram bagunça do caminho: processos manuais, dados espalhados, integrações frágeis e fluxos que ninguém consegue auditar direito.
+Sou **Desenvolvedor III na [Alest Consultoria](https://alest.com.br/)**, em São Paulo. Gosto de pegar aquele processo cheio de etapas manuais, dados espalhados e sistemas que não conversam — e fazer as peças funcionarem juntas.
 
-Minha base principal é **C#/.NET**, mas no dia a dia também trabalho com **TypeScript, React, Node.js, Python, SQL, AWS, Notion, Monday, Google APIs e ferramentas modernas de IA** como Codex, Kiro e Windsurf.
+Meu dia a dia passa por serviços backend, integrações SaaS, qualidade de dados e automações na AWS. Participo da implementação, documentação, testes e revisão, com acompanhamento de liderança técnica nos projetos. Para mim, fazer funcionar é o começo: quero conseguir entender o que aconteceu quando alguma coisa sai do esperado.
 
-O resumo honesto: gosto de transformar ideia solta em produto funcionando. Com log, dado limpo, automação e documentação para ninguém precisar adivinhar o que aconteceu depois. 🙂
+**[Conheça meu portfólio](https://portfolio-pessoal-vert.vercel.app/)** · [LinkedIn](https://www.linkedin.com/in/gustavofragascunha/) · [Vamos conversar](mailto:gustavofragascunha@gmail.com)
 
----
+## Projetos para conhecer meu trabalho
 
-## 🚀 O que estou construindo agora
+### [Portfólio pessoal](https://github.com/GustavoFragas/Portfolio-Pessoal)
 
-- 🧩 **APIs e backends** com C#/.NET, ASP.NET Core, Minimal APIs, SQL e boas práticas de Clean Code.
-- 🔁 **Integrações entre plataformas** com Notion, Monday, Google APIs, DocuSign/CLM, webhooks e rotinas de sincronização.
-- 📊 **Observabilidade de produto e IA** para acompanhar uso, custo, tokens, execuções, erros e indicadores.
-- 🤖 **AI-assisted development** com Codex, Kiro, Windsurf e Notion para acelerar entrega sem desligar o senso crítico.
-- 🎨 **Frontend quando precisa** com React, TypeScript, Vite e TailwindCSS.
+Meu trabalho reunido em português, inglês e espanhol, com cases profissionais anonimizados e projetos públicos. Frontend em **React, TypeScript e Vite**, com **Motion** nas animações e **Three.js** na visualização interativa. O repositório também mantém um **backend .NET de referência**, separado do site estático publicado.
 
----
+[Abrir o site →](https://portfolio-pessoal-vert.vercel.app/)
 
-## 🧠 Meu jeito de trabalhar
+### [ATS Optimizer](https://github.com/GustavoFragas/ats-optimizer)
 
-```txt
-entender o problema → limpar dados → desenhar fluxo → construir API → medir → documentar → melhorar
-```
+Projeto pessoal em **C#/.NET, React e TypeScript**, com leitura e geração de PDFs e integração com LLM. O fluxo usa perguntas no formato STAR para apoiar a adaptação de currículos a vagas, com instruções para não inventar experiências. As sugestões ainda precisam de revisão humana. Desenvolvi com apoio intenso de IA, definindo o produto, os critérios de aceite e os testes do fluxo.
 
-Gosto de código que dá para explicar, testar e manter. Também gosto de ferramenta moderna, mas sem romantizar: IA ajuda muito quando existe direção técnica, contexto bom e revisão humana.
+### Fundamentos em prática
 
----
+- **[Sistema para Estacionamento](https://github.com/GustavoFragas/Sistema-para-Estacionamento)** — exercício da trilha .NET da DIO, a partir do projeto-base do curso, para praticar C#, orientação a objetos e regras de cobrança.
+- **[CSE 210 Projects](https://github.com/GustavoFragas/cse210-projects)** — exercícios acadêmicos em C# da BYU-Idaho, com classes, encapsulamento e orientação a objetos.
 
-## 🛠️ Stack que mais aparece por aqui
+## Problemas com que já trabalhei
 
-<p align="left">
-  <img src="https://img.shields.io/badge/C%23-68217A?style=for-the-badge&logo=csharp&logoColor=white" alt="C#"/>
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET"/>
-  <img src="https://img.shields.io/badge/ASP.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt="ASP.NET Core"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS"/>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-  <img src="https://img.shields.io/badge/Notion_API-000000?style=for-the-badge&logo=notion&logoColor=white" alt="Notion API"/>
-  <img src="https://img.shields.io/badge/AI_Automation-6D28D9?style=for-the-badge&logo=openai&logoColor=white" alt="AI Automation"/>
-</p>
+- **Dados disponíveis no painel:** implementei uma migração controlada de Redis/ElastiCache para snapshots no S3, com expiração de 90 dias e fallback para o último snapshot válido. A transição incluiu comparação com o cache anterior e acompanhamento da sincronização.
+- **Integrações e qualidade de dados:** trabalhei com Datadog, Notion API, Monday e DocuSign CLM, incluindo sincronização, tratamento de limites de API, filtragem de ruído e separação de credenciais por função.
+- **Processamento assíncrono:** participei da evolução e documentação de serviços com SQS/DLQ e workers. Validei localmente cenários de consumo, novas tentativas e encaminhamento de falhas usando Docker.
+- **Entrega e segurança:** publiquei frontend no AWS Amplify e trabalhei com GitHub Actions, build, Sonar e Gitleaks na validação de entregas. Também utilizei e revisei configurações de App Runner e Docker.
 
----
+Os detalhes públicos estão nos **[cases do portfólio](https://portfolio-pessoal-vert.vercel.app/#cases)**. Código privado, clientes, credenciais e informações internas ficam fora daqui.
 
-## 🌟 Projetos em destaque
+## Como uso IA no desenvolvimento
 
-| Projeto | Stack | Por que vale olhar |
-|---|---|---|
-| 🧠 [ATS Optimizer](https://github.com/GustavoFragas/ats-optimizer) | C#, .NET, React, TypeScript, LLM | App para otimizar currículos de forma ética: PDF parsing, prompts anti-alucinação, geração ATS-friendly e fluxo STAR |
-| 💼 [Portfolio Pessoal](https://github.com/GustavoFragas/Portfolio-Pessoal) | React, TypeScript, TailwindCSS, .NET | Portfolio técnico com dados centralizados, frontend responsivo, README forte e backend de referência |
-| 🚗 [Sistema para Estacionamento](https://github.com/GustavoFragas/Sistema-para-Estacionamento) | C#, .NET, OOP | Regras de domínio, entrada/saída de veículos e cálculo de tarifas em C# |
-| 📚 [CSE 210 Projects](https://github.com/GustavoFragas/cse210-projects) | C# | Fundamentos de OOP, encapsulamento, classes e prática acadêmica internacional |
+Uso **Codex, Kiro, MCPs e cadeias de agentes e subagentes** para apoiar implementação, investigação, documentação e revisão. O **Learning Loop** faz parte desse processo: registrar falhas reais, entender a causa e transformar o aprendizado em uma checagem reutilizável.
 
-> Alguns projetos profissionais ficam privados por confidencialidade. Quando envolvem dados internos, automações corporativas ou integrações sensíveis, eu mostro a arquitetura e o aprendizado sem expor o que não deve ser público.
+Não trato a resposta da IA como validação. Definir o escopo, revisar as mudanças, testar e decidir o que pode seguir continuam sendo responsabilidades humanas.
 
----
+## Ferramentas do meu dia a dia
 
-## 📌 Onde estou evoluindo
+- **Backend:** C#, .NET, ASP.NET Core, TypeScript, Node.js, Python e SQL.
+- **Cloud e entrega:** AWS Lambda, S3, SQS, Amplify, App Runner, Docker e GitHub Actions.
+- **Dados e integrações:** APIs REST, webhooks, Notion API, Datadog, Monday, DocuSign CLM, Athena e QuickSight.
+- **Frontend:** React, TypeScript e Vite; Motion e Three.js aplicados neste portfólio.
 
-- 🏗️ Arquitetura backend com C#/.NET, Clean Architecture e APIs bem testáveis.
-- ☁️ AWS para workloads serverless, automações e observabilidade.
-- 📈 Observabilidade de custos, tokens, execuções e produtividade em ferramentas de IA.
-- 🔌 Padrões de integração entre SaaS, CRMs, bancos de dados e ferramentas operacionais.
+Estou aprofundando **Clean Architecture, testes de integração e confiabilidade de serviços**. Tenho interesse em aproximar cada vez mais o desenvolvimento da operação, da segurança e do uso consciente de recursos na nuvem.
 
----
+## Um pouco além do código
 
-## 🌎 Idiomas
+Curso **Software Development na BYU-Idaho** e **Análise e Desenvolvimento de Sistemas na UFBRA**. Tenho formação técnica em Desenvolvimento de Sistemas pela ETEC Parque Belém.
 
-- 🇧🇷 Português nativo
-- 🇪🇸 Espanhol fluente
-- 🇺🇸 Inglês B2
+Entre março de 2023 e abril de 2025, morei na Argentina em um serviço voluntário de tempo integral. Foi uma experiência importante para minha comunicação e para aprender a trabalhar com pessoas de contextos diferentes.
 
----
+**Português nativo · Espanhol fluente · Inglês B2**
 
-## 📫 Bora trocar uma ideia?
-
-<p align="left">
-  <a href="https://linkedin.com/in/gustavofragascunha">
-    <img src="https://img.shields.io/badge/LinkedIn-Gustavo_Fragas-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="https://portfolio-pessoal-vert.vercel.app/">
-    <img src="https://img.shields.io/badge/Portfolio-online-111827?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/>
-  </a>
-  <a href="mailto:gustavofragascunha@gmail.com">
-    <img src="https://img.shields.io/badge/Email-contato-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-</p>
+Se quiser falar sobre uma integração, um projeto ou trocar uma ideia sobre desenvolvimento, me encontra no [LinkedIn](https://www.linkedin.com/in/gustavofragascunha/) ou por [e-mail](mailto:gustavofragascunha@gmail.com).
