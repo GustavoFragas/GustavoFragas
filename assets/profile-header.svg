@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title description">
+  <title id="title">Gustavo Fragas — Backend, APIs e integrações</title>
+  <desc id="description">Capa em grafite e laranja. Gustavo Fragas à esquerda; conexões entre API, dados e cloud à direita.</desc>
+  <!-- Portfolio palette: ink #101619, paper #f6f3ed, orange #ff8a42, cyan #62d7dd. No scripts, animation, fonts or external resources. -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#243136" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="16" fill="#101619"/>
+  <rect x="690" y="1" width="509" height="298" rx="16" fill="url(#grid)"/>
+  <rect x="0" y="28" width="6" height="244" rx="3" fill="#ff8a42"/>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace">
+    <text x="48" y="54" font-size="15" letter-spacing="3" fill="#ff8a42">GFC / SOFTWARE DEVELOPMENT</text>
+    <text x="48" y="231" font-size="18" fill="#d8e0df">Backend · APIs · Integrações</text>
+    <text x="48" y="263" font-size="14" fill="#a7b7b9">São Paulo, Brasil / C# .NET · TypeScript · AWS</text>
+  </g>
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="76" font-weight="700" letter-spacing="-2">
+    <text x="44" y="132" fill="#f6f3ed">Gustavo</text>
+    <text x="44" y="198" fill="#ff8a42">Fragas.</text>
+  </g>
+  <g fill="none" stroke-width="2">
+    <path d="M754 155H811C833 155 833 91 855 91H878" stroke="#ff8a42"/>
+    <path d="M754 155H811C833 155 833 219 855 219H878" stroke="#62d7dd"/>
+    <path d="M1006 91H1032C1060 91 1060 155 1082 155H1138" stroke="#ff8a42"/>
+    <path d="M1006 219H1032C1060 219 1060 155 1082 155" stroke="#62d7dd"/>
+  </g>
+  <g font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="16" text-anchor="middle">
+    <rect x="685" y="124" width="100" height="62" rx="10" fill="#101619" stroke="#ff8a42"/>
+    <text x="735" y="161" fill="#f6f3ed">API</text>
+    <rect x="878" y="60" width="128" height="62" rx="10" fill="#101619" stroke="#ff8a42"/>
+    <text x="942" y="97" fill="#f6f3ed">DADOS</text>
+    <rect x="878" y="188" width="128" height="62" rx="10" fill="#101619" stroke="#62d7dd"/>
+    <text x="942" y="225" fill="#f6f3ed">CLOUD</text>
+  </g>
+  <circle cx="1138" cy="155" r="8" fill="#ff8a42"/>
+  <circle cx="1138" cy="155" r="17" fill="none" stroke="#ff8a42" stroke-opacity=".35"/>
+</svg>

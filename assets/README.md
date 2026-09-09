@@ -1,0 +1,6 @@
+# Visual assets
+
+- `profile-header.svg`: original static artwork created for Gustavo Fragas's GitHub profile. Graphite, orange and cyan follow the personal portfolio direction; this is not an Alest or AWS logo. No scripts, embedded external content, external fonts or animation. Accessible text is present in the SVG and in the profile README.
+- Technology and contact badges are served by [Shields.io](https://shields.io/badges/static-badge). Shields source provides [Apache-2.0](https://github.com/badges/shields/blob/master/LICENSE-APACHE) and [MIT](https://github.com/badges/shields/blob/master/LICENSE-MIT) licenses. Icons use [Simple Icons](https://github.com/simple-icons/simple-icons), whose [CC0 license does not waive trademark rights](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md). They identify technologies used, not certifications, partnerships or endorsements.
+- Badge slugs checked on 2026-09-09: `dotnet`, `typescript`, `nodedotjs`, `python`, `react`, `docker`, `githubactions`, `notion`, `gmail`. AWS and LinkedIn use text-only badges, not replacement logos.
+- Public badge requests contain static labels only. No tokens, private-repository statistics, visitor counters or tracking widgets are used. Badge availability depends on Shields.io; all images have meaningful fallback text.
